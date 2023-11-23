@@ -12,6 +12,8 @@
         android:id="@+id/myImageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/flStart"
+        android:contentDescription="@string/image"
+        android:src="@drawable/img_main_page"
         android:layout_width="match_parent"
         android:layout_height="220dp"/>
     <FrameLayout
@@ -20,7 +22,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="150dp"
-        android:layout_height="150dp">
+        android:layout_height="150dp"
+        android:background="@drawable/item_color_accent_border_ripple_background">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
